@@ -1,4 +1,4 @@
-# CSR: CLIP Spectral Robustness
+# CSR: Contrastive Spectral Rectification
 
 > **📄 Paper Status**: The associated paper is currently **under review**. Full details will be released upon acceptance.
 
@@ -6,7 +6,7 @@ A **training-free**, frequency-domain adversarial defense framework for CLIP vis
 
 ## Overview
 
-CSR (CLIP Spectral Robustness) defends CLIP models against adversarial attacks by leveraging the **spectral properties** of adversarial perturbations. The core insight is that adversarial perturbations concentrate in high-frequency components, causing a measurable discrepancy between features of the original image and its low-pass filtered version.
+CSR defends CLIP models against adversarial attacks by leveraging the **spectral properties** of adversarial perturbations. The core insight is that adversarial perturbations concentrate in high-frequency components, causing a measurable discrepancy between features of the original image and its low-pass filtered version.
 
 ### Key Features
 
